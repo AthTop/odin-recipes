@@ -1,0 +1,27 @@
+* {
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #eee;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+a {
+    text-decoration: none;
+    color: #292;
+    font-weight: bold;
+}
+
+.list {
+    background-color: #ddd;
+    list-style: none;
+    color: #444;
+    width: 70%;
+    margin: 0 auto;
+}
+
