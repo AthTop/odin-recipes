@@ -40,12 +40,21 @@ a {
     margin: 10px 0;
 }
 
-.ingredients {
-    padding: 10px 0;
+.ingredients, .steps {
+    padding: 10px 0 1px;
+    margin-bottom: 10px;
 }
 
-.steps {
-    padding: 10px 0;
+.ingredients:not(.list) {
+    box-shadow: 1px 1px 1px 1px #eef;
+    border-radius: 2%;
+    background-color: #fcfceb;
+}
+
+.steps:not(.list) {
+    box-shadow: 1px 1px 1px 1px #eef;
+    border-radius: 1%;
+    background-color: #fcfceb;
 }
 
 .list.ingredients li {
